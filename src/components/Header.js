@@ -8,7 +8,7 @@ const Header = (props) => {
             fastfood
                                   </span>
           fastfood Recipes</h1>
-        <div class="input-group w-50 mx-auto">
+        <div class="input-group w-60 mx-auto">
           <input type="text" class="form-control" placeholder="Search Your Recipe.."
             value={props.search}
             onChange={props.onInputChange} />
